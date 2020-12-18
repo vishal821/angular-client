@@ -1,0 +1,11 @@
+<h3>Add New Book Details</h3>
+<form class="form-inline" #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin.value)">
+  <div class="form-group mx-sm-3 mb-2">
+    <input type="text" name="bookName" ngModel placeholder="Enter Name" />
+  </div>
+  <div class="form-group mx-sm-3 mb-2">
+    <input type="text" class="form-control" name="bookDesc" placeholder="Enter Description" ngModel />
+  </div>
+  <input type="submit" value="submit">
+</form>
+<br />
